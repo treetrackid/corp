@@ -869,7 +869,7 @@ async function initPayment() {
           <p><strong>Order ID:</strong> <span class="order-code">${escapeHtml(liveOrder.id)}</span></p>
           <div class="summary-item"><div>Items</div><strong>${liveOrder.items.reduce((sum, item) => sum + item.quantity, 0)} item(s)</strong></div>
           <div class="summary-item"><div>Total</div><strong>${money(liveOrder.total)}</strong></div>
-          ${currentStatus !== 'completed' ? `<div class="whatsapp-box"><h3>Continue on WhatsApp</h3><p>Send your pre-filled order details to the TreeTrack team at <strong>+62 813-9511-928</strong>.</p><a class="btn btn-primary" href="${link}" target="_blank" rel="noopener">Open WhatsApp →</a></div>` : ''}
+          ${currentStatus !== 'completed' ? `<div class="whatsapp-box"><h3>Continue on WhatsApp</h3><p>Send your pre-filled order details to the TreeTrack team at <strong>+6287840808615</strong>.</p><a class="btn btn-primary" href="${link}" target="_blank" rel="noopener">Open WhatsApp →</a></div>` : ''}
           ${currentStatus === 'completed' ? `<section class="review-panel" id="paymentReviewPanel">
             <div class="kicker">Your experience</div>
             <h2>${review ? 'Your TreeTrack review.' : 'How was your TreeTrack order?'}</h2>
