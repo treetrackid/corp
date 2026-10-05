@@ -822,7 +822,7 @@ function buildWhatsAppLink(order) {
     '',
     'Please send me the manual payment instructions. Thank you!'
   ].join('\n');
-  return `https://wa.me/628139511928?text=${encodeURIComponent(message)}`;
+  return `https://wa.me/6287840808615?text=${encodeURIComponent(message)}`;
 }
 
 async function initPayment() {
